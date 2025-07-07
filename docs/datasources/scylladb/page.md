@@ -49,6 +49,8 @@ go get gofr.dev/pkg/gofr/datasource/scylladb
 package main
 
 import (
+	"context"
+	
 	"github.com/gocql/gocql"
 
 	"gofr.dev/pkg/gofr"

@@ -43,6 +43,8 @@ go get gofr.dev/pkg/gofr/datasource/cassandra@latest
 package main
 
 import (
+	"context"
+	
 	"gofr.dev/pkg/gofr"
 	cassandraPkg "gofr.dev/pkg/gofr/datasource/cassandra"
 )

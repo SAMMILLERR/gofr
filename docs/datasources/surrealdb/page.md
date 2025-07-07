@@ -47,6 +47,8 @@ The following example demonstrates injecting an SurrealDB instance into a GoFr a
 package main
 
 import (
+	"context"
+	
 	"gofr.dev/pkg/gofr"
 	"gofr.dev/pkg/gofr/datasource/surrealdb"
 )
